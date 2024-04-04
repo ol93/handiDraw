@@ -1,0 +1,86 @@
+button{
+  color: black
+}
+
+
+
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+button {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+
+
+
+
+
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    
+  
+  }
+
+  button{
+    background-color: white;
+    color: black;
+    
+  }
+
+  button:hover{
+    font-weight: bolder;
+    scale: 1.1;
+  }
+  
+  button:active, button:focus {
+    color: black;
+    outline: none;
+  }
+
+
+  select{
+    color: black;
+    outline: none;
+    background-color: white;
+  }
+ 
+}
+
+@media (prefers-color-scheme: dark) {
+  
+
+  button{
+    background-color: none;
+    color: black;
+  }
+
+  button:hover{
+    font-weight: bolder;
+    scale: 1.1;
+  }
+
+  button:active, button:focus {
+    color: black;
+    outline: none;
+  }
+
+  select{
+    color: black;
+    outline: none;
+    background-color: white;
+  }
+
+  
+  
+ 
+}

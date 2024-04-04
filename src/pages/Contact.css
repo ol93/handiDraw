@@ -1,0 +1,176 @@
+.c-contact{
+    top: 24vh;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 63vh;
+    width: 85vw;
+}
+
+.c-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 10vh;
+}
+
+.c-title h1{
+    font-size: 4rem;
+}
+
+.c-title img{
+    height: 12vh;
+    width: 6vw;
+    margin-bottom: 2vw;
+}
+
+.c-contact-text{
+    margin-bottom: -5vh;
+    width: 600px;
+    font-size: 1.5rem;
+}
+
+.c-techstack-used{
+    height: 15vh;
+    width: 85vw;
+}
+
+.carousel{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50px;
+    width: 600px;
+
+}
+.carousel:hover{
+    cursor: pointer;
+}
+
+
+
+.carousel-container img{
+    height: 50px;
+    
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+.modal{
+
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 86vw;
+    height: 70vh;
+    
+    background-color: white;
+    
+    z-index: 1;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    
+}
+
+.modal.modal-open {
+    opacity: .9;
+   
+    
+  }
+
+  a{
+    text-decoration: underline;
+    color: black;
+  }
+
+  
+ 
+
+.modal-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    height: 300px;
+    width: 300px;
+    background-image: url('../IconsHanddrawn/container.png');
+    background-size: 300px 300px;
+    
+}
+
+.modal img{
+    height: 70px;
+    width: 70px;
+    margin-bottom: -20px;
+    margin-top: -10px;
+}
+
+.modal p{
+    font-size: 1rem;
+    
+    width: 270px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    
+}
+
+
+
+
+.modal a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    margin-top: -10px;
+}
+
+
+.modal button{
+    height: 40px;
+    width: 70px;
+    background-image: url('../IconsHanddrawn/container.png');
+    background-size: 65px 35px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.2rem;
+    font-family: Kalam;
+    margin-top: -20px;
+    cursor: pointer;
+   
+
+}
+
+
+
+@media (max-width: 600px) {
+
+.c-contact{
+    top: 100px;
+    width: 300px;
+    height: 500px;
+    overflow-y: scroll;
+
+   
+}
+
+.c-contact-text{
+    width: 300px;
+    font-size: 1rem;
+}
+
+.carousel{
+    width: 300px;
+}
+
+.c-title img{
+    display: none;
+}
+
+}

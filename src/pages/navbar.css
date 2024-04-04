@@ -1,0 +1,297 @@
+.n-navbar-container {
+  position: fixed;
+  top: 2vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 15vh;
+  width: 100vw;
+  box-sizing: border-box;
+}
+
+.n-logo-container,
+.n-about-container,
+.n-icons-container,
+.n-contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 15vh;
+  width: 18vw;
+
+  box-sizing: border-box;
+}
+
+.n-logo-container img {
+  height: 16vh;
+  width: 13vw;
+  margin-top: -2vh;
+}
+
+.n-about-container img,
+.n-icons-container img {
+  height: 14vh;
+  width: 11vw;
+}
+
+.n-contact-container img {
+  margin-top: 2vh;
+
+  height: 10vh;
+  width: 13vw;
+}
+
+.n-cart-container img,
+.n-profile-container img {
+  height: 10vh;
+  width: 8vw;
+  margin: auto;
+}
+
+.n-cart-container,
+.n-profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 15vh;
+  width: 18vw;
+
+  box-sizing: border-box;
+}
+
+.cart-count {
+  position: absolute;
+  top: 1vh;
+  right: 20vw;
+  background-color: red;
+  color: white;
+  border-radius: 100%;
+  padding: 1px 6px;
+  font-size: 0.8em;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 1s;
+}
+
+#cartIcon {
+  transition: transform 1s;
+}
+
+.navbar-selector img {
+  height: 4vh;
+  width: 8vw;
+  margin-top: -2vh;
+}
+.navbar-selector {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 2vh;
+  width: 8vw;
+  margin-top: -1vh;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.navbar-selector.show {
+  opacity: 1;
+}
+
+.n-profile-container img:hover,
+.n-cart-container img:hover,
+.n-logo-container img:hover,
+.n-about-container img:hover,
+.n-icons-container img:hover,
+.n-contact-container img:hover {
+  cursor: pointer;
+  scale: 1.1;
+  transition-duration: 1s;
+}
+
+
+@media (min-width: 600px){
+  .mobile-menu{
+    display: none;
+  }
+  #nav-menu-img{
+    display: none;
+  }
+  .n-mobile-cart-container{
+    display: none;
+  }
+
+  .mobile-cart-count{
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .n-profile-container img,
+  .n-cart-container img,
+  .n-logo-container img,
+  .n-about-container img,
+  .n-icons-container img,
+  .n-contact-container img,
+  .cart-count {
+    display: none;
+  }
+
+  @media (max-width: 600px) {
+    .n-profile-container.mobile-item img,
+    .n-cart-container.mobile-item img,
+    .n-logo-container.mobile-item img,
+    .n-about-container.mobile-item img,
+    .n-icons-container.mobile-item img,
+    .n-contact-container.mobile-item img {
+      display: block;
+      
+    }
+    
+  }
+
+  .mobile-menu{
+    max-height: 200px;
+    max-width: 200px;
+    position: fixed;
+    top: 100px;
+    background-image: url('../IconsHanddrawn/container.png');
+    background-size: 200px 203px;
+    background-color: white;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    left: 10px;
+    
+    
+   
+    z-index: 100;
+    overflow-y: scroll;
+    border-radius: 10px;
+    
+    
+   
+    
+   
+  }
+
+  .mobile-menu.hidden{
+    display: none;
+  }
+
+  
+
+  #nav-menu-img{
+
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    left: 10px;
+
+    transition: transform 0.5s ease-in-out;
+   
+
+  }
+
+  #nav-menu-img:hover{
+    cursor: pointer;
+    scale: 1.1;
+    
+
+  }
+  .rotated {
+    transform: rotate(90deg);
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .navbar-items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow-y: scroll;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  ;
+    
+    border-radius: 20px;
+    opacity: 1;
+    
+    
+    
+    
+    
+  
+  
+  }
+
+ 
+
+
+
+
+
+
+
+
+  
+
+  .mobile-item img {
+    height: 60px;
+    width: 60px;
+    z-index: 10;
+  }
+
+ 
+  
+  .n-mobile-cart-container{
+    position: fixed;
+    right: 20px;
+    
+  }
+
+  .n-mobile-cart-container img{
+    height: 60px;
+    width: 60px;
+  }
+
+
+  .n-mobile-cart-container img:hover{
+    cursor: pointer;
+    scale: 1.1;
+    transition-duration: .4s;
+  }
+
+
+.mobile-cart-count{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: red;
+  color: white;
+  border-radius: 100%;
+  padding: 1px 6px;
+  font-size: 0.8em;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+
+
+
+
+
+
+  /* Add your menu button styles here */
+}
+

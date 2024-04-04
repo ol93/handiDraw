@@ -1,0 +1,254 @@
+.s-show-products-container{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    height: 63vh;
+    width: 85vw;
+    gap: 2vw;
+
+    background-image: url('../IconsHanddrawn/container.png');
+    background-size: 85vw 63vh;
+    
+   
+ 
+    
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+
+.s-show-product-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 50vh;
+    width: 85vw;
+
+    
+
+
+}
+
+.s-show-product-container button{
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    width: 150px;
+    height: 80px;
+    background-image: url('../IconsHanddrawn/dropdown.png');
+    background-size: 150px 80px;
+    background-repeat: no-repeat;
+    text-wrap: nowrap;   
+    font-family: kalam;  
+    cursor: pointer; 
+}
+.s-show-product-text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    width: 30vw;
+}
+
+.s-show-product-text-container p{
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.s-show-product-text-container span{
+    font-size: 1.4rem;
+}
+
+.s-show-product-addtocart-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+
+.s-show-product-container img{
+    width: 6vw;
+    cursor: pointer;
+}
+
+.s-show-product-addtocart-container button{
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    width: 150px;
+    height: 80px;
+    background-image: url('../IconsHanddrawn/dropdown.png');
+    background-size: 150px 80px;
+    background-repeat: no-repeat;
+    text-wrap: nowrap;   
+    font-family: kalam;
+}
+
+.s-show-product-img-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 60vh;
+    width: 30vw;
+}
+
+.s-show-product-img-container img{
+    width: 15vw;
+    height: 15vw;
+  
+
+   
+    border-radius: 5vw;
+}
+
+.s-show-product-img-container p{
+    margin: 0;
+    font-size: 1.5rem;
+
+}
+#mobile-addtoCart{
+    display: none;
+}
+
+
+@media (max-width: 600px) {
+
+
+#mobile-s-show-product-img-container{
+    
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    height: 60vh;
+    width: 150px;
+}
+
+    #mobile-back-button{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        
+    }
+
+
+.select-background p{
+    display: none;
+
+}
+
+#mobile-details{
+    display: none;
+
+}
+
+.s-show-product-container button{
+    width: 80px;
+    height: 80px;
+background-size: 80px 80px;
+cursor: pointer;
+
+
+
+}
+
+.s-show-product-container button:hover{
+    scale: 1.1;
+}
+
+.s-show-product-addtocart-container img{
+    width: 70px;
+    cursor: pointer;
+}
+
+#mobile-product-img{
+    width: 100px;
+    height: 100px;
+    
+    
+
+}
+
+#mobile-background-select{
+    cursor: pointer;
+    
+}
+
+
+.s-show-product-img-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    height: 60vh;
+    width: 30vw;
+}
+
+#s-show-mobile-text-container p,
+#s-show-mobile-text-container span
+{
+    font-size: 1rem;
+}
+
+.s-show-product-addtocart-container{
+    display: none;
+}
+
+#mobile-addtoCart{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    bottom: 10px;
+   
+}
+
+#mobile-addtoCart button{
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    width: 150px;
+    height: 80px;
+    background-image: url('../IconsHanddrawn/dropdown.png');
+    background-size: 150px 80px;
+    background-repeat: no-repeat;
+    text-wrap: nowrap;   
+    font-family: kalam;
+    cursor: pointer;
+}
+
+    #mobile-addtoCart img{
+        width: 70px;
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

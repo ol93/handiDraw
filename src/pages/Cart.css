@@ -1,0 +1,342 @@
+.carti-container{
+    top: 24vh;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 63vh;
+    width: 85vw;
+
+    
+   
+}
+
+.carti-title-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 40px;
+    width: 85vw;
+  
+   
+   
+  
+
+}
+
+.carti-title-container h1{
+    font-size: 4rem;
+   
+}
+
+
+
+.carti-title-container img{
+
+    width: 80px;
+    
+}
+
+.carti-checkout-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 63vh;
+    width: 85vw;
+  
+    
+  
+    
+}
+
+.carti-product-description{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 5vh;
+    width: 50vw;
+}
+
+
+
+.carti-product-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  
+    
+    
+
+    height: 250px;
+    width: 55vw;
+   
+    min-width: 300px;
+   overflow-y: scroll;
+   
+ 
+    
+}
+
+.carti-product-container span{
+    font-size: 1rem;
+}
+
+.carti-product-container p{
+
+    font-size: 1.5rem;
+}
+#img{
+    margin-left: 2vw;
+    margin-right: -3vw;
+}
+
+#name {
+    margin-left: 5vw;
+   
+}
+
+.carti-totals-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 50vh;
+    width: 25vw;
+    ;
+   
+   
+}
+
+.carti-product{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    width: 50vw;
+     min-height: 80px;
+    min-width: 250px;
+    background-image: url('../IconsHanddrawn/dropdown.png');
+    background-size: 50vw 80px;
+   background-repeat: no-repeat;
+  
+   
+
+}
+
+.carti-promocode{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    height: 23vh;
+    width: 24vw;
+    
+   
+    
+
+    
+   
+    
+}
+
+.carti-img-container img{
+    width: 2.5vw
+}
+
+.carti-img-container button {
+    
+    height: 4vw;
+    width: 4w;
+    
+
+}
+
+.carti-totals-container input{
+    margin-top: 3vh;
+    height: 8vh;
+    width: 16vw;
+    background-image: url('../IconsHanddrawn/dropdown.png');
+    background-size: 16vw 8vh;
+    background-repeat: no-repeat;
+    border: none;
+    font-family: Kalam;
+   
+    text-align: center;
+    
+}
+#welcome{
+    font-size: 1.5rem;
+    margin-top: 2vh;
+
+}
+.carti-totals-container button{
+    height:10vh;
+    width: 14vw;
+    background: none;
+    background-image: url('../IconsHanddrawn/dropdown.png');
+    background-size: 14vw 10vh;
+    border: none;
+    text-align: center;
+    font-family: 'Kalam';
+   
+}
+
+#delete{
+    width: 40px;
+    cursor: pointer;
+    background: red;
+    border-radius: 20px;
+}
+
+.carti-totals-text {
+    
+    text-align: left;
+    padding-top: 5vh;
+    font-size: 1.5rem;
+
+    
+    height: 30vh;
+    width: 24vw;
+    margin: 0;
+   
+    
+    
+}
+
+.carti-totals-text p{
+    margin: 0;
+    margin-top: 0;
+    ;
+}
+
+.carti-totals-text button{
+    height:80px;
+    width: 270px;
+    background: none;
+    background-image: url('../IconsHanddrawn/dropdown.png');
+    background-size: 260px 80px;
+    
+    background-repeat: no-repeat;
+    border: none;
+    text-align: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+
+
+}
+
+
+
+@media (max-width: 600px){
+
+
+    .carti-container{
+        top: 100px
+    }
+    .carti-checkout-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height:450px;
+        width: 300px;
+        
+        
+        margin-top: 20px;
+      
+        
+      
+        
+    }
+
+    .carti-product-container{
+        height: 300px;
+        width: 300px;
+        
+    }
+
+
+    .carti-totals-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+        height: 200px;
+        width: 300px;
+        
+        
+    }
+
+    #welcome{
+        font-size: 1rem;
+        margin-top: 2vh;
+        width: 250px;
+    }
+
+    .carti-totals-text {
+        margin: 0;
+        margin-top: -40px;
+        font-size: 1rem;
+        text-align: center;
+        height: 200px;
+        width: 300px;
+
+    }
+
+    .carti-totals-text button{
+        height:40px;
+        width: 260x;
+        background-size: 260px 40px;
+
+
+    }
+
+    .carti-product{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        height: 80px;
+        width: 300px;
+         
+        background-image: url('../IconsHanddrawn/dropdown.png');
+        background-size: 300px 80px;
+       background-repeat: no-repeat;
+      
+       
+    
+    }
+
+    .carti-product p{
+        font-size: 1rem;
+    }
+
+    .carti-product span{
+        font-size: 0.8rem;
+    }
+
+    .carti-img-container img{
+        width: 30px;
+    }
+
+    #delete{
+        width: 30px;
+        cursor: pointer;
+        background: red;
+        border-radius: 20px;
+    }
+
+
+
+
+
+
+}

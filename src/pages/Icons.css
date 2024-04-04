@@ -1,0 +1,209 @@
+
+.m-icon-container{
+    
+        position: absolute;
+        top: 24vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 63vh;
+        width: 85vw;
+        
+     
+
+
+        
+       
+     
+        overflow-y: scroll;
+       
+        overflow-x: scroll;
+        
+       
+       
+        
+    }
+
+
+
+
+
+.m-logos-container h1{
+    font-size: 4rem;
+}
+
+
+
+
+.m-title-img-container img{
+    width: 80px;
+    height: 80px;
+}
+
+
+
+
+
+
+    .m-logos-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 100px;
+        width: 85vw;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    
+    }
+
+
+
+    .m-products-container{
+        background-image: url('../IconsHanddrawn/container.png');
+        background-size: 320px 200px;
+        background-repeat: no-repeat;
+        
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+        width: 320px;
+        height: 200px;
+        z-index: 1;
+
+    }
+
+    .m-container-products{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 80vw;
+        height: 53vh;
+      
+
+    }
+
+   
+
+    .m-products-container:hover{
+        cursor: pointer;
+        scale: 1.1;
+        transition-duration: .2s;
+    }
+
+    .m-img-container{
+        height: 150px;
+        width: 200px;
+        margin-right: -2vw;
+        margin-top: 2vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        
+        
+        
+       
+    }
+
+    .m-products-container img{
+        height: 120px;
+
+        width: 120px;
+       
+        background-color: lightgrey;
+        border-radius: 10px;
+        
+    }
+
+    .m-text-container p{
+        margin: 0;
+        
+        font-weight: 800;
+        font-size: 1rem;
+
+
+    }
+
+    .m-text-container span{
+        font-weight: 400;
+        font-size: 1rem;
+    }
+
+    .custom-Button{
+        color: red;
+        font-size: 1rem;
+        font-family: kalam;
+        cursor: pointer;
+        border: none;
+        background: none;
+    }
+
+    .custom-Button:hover{
+        color: black;
+        scale: 1.1;
+        transition-duration: .4s;
+    }
+
+@media (max-width: 600px){
+    
+
+    .m-icon-container{
+        position: absolute;
+        top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 480px;
+        width: 95vw
+    }
+
+    .m-title-img-container img{
+        display: none;
+    }
+
+    .m-logos-container select{
+        width: 40px;
+    }
+
+    .m-container-products{
+        width: 340px;
+    }
+
+    .custom-Button{
+        color: red;
+        font-size: 1rem;
+        font-family: kalam;
+        cursor: pointer;
+        border: none;
+        background: none;
+    }
+
+    .custom-Button:hover{
+        color: black;
+        scale: 1.1;
+        transition-duration: .4s;
+    }
+
+    .m-img-container{
+
+        width: 180px;
+        
+
+
+    }
+
+
+
+
+}
+
+    
+
+
+
